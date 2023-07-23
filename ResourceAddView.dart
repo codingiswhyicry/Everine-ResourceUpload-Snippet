@@ -71,8 +71,6 @@ class _ResourceAddViewViewState extends State<ResourceAddView> {
       organizationLinkController.text = '';
       organizationContactController.text = '';
 
-      notificationMaster.sendAlertNotificationRequest(
-          "Resource added!", Assets.add);
     });
   }
 
